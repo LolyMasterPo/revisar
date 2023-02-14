@@ -1,0 +1,32 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{ 
+    box-sizing: border-box;
+}
+
+
+.nav {
+    @apply mb-4 h-[37px] w-[195px] rounded-2xl bg-pale-sky-600 flex justify-center items-center
+    text-white text-[1.05rem] font-semibold hover:bg-yellow-500 transition duration-300 focus:bg-yellow-500
+};
+
+.aboutTitle {
+    @apply text-center font-bold text-[2.2rem]  
+};
+
+.dataChar {
+    @apply text-white text-[1.35rem] mb-2
+};
+
+.display38 {
+ @apply max-sm:hidden max-lg:hidden max-md:hidden
+};
+
+.btntlf {
+    @apply focus:bg-yellow-500
+}
+
